@@ -81,7 +81,13 @@ footer{
 main{
   padding: 20px;
   display: flex;
-  flex-wrap: wrap;
+  overflow: scroll;
+}
+
+.container{
+  padding: 20px;
+  display: flex;
+  overflow: scroll;
 }
 
 .cardImage{
